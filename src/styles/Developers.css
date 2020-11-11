@@ -1,0 +1,71 @@
+.developers-container > .dev-page {
+  box-shadow: 0.5px 1.5px 5px 3.5px rgba(0, 0, 0, 0.151);
+  padding-bottom: 5%;
+  padding-top: 2%;
+  background-image: url('/images/halacious-Pr578ZCufII-unsplash.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.dev-page > .page-title {
+  font-size: 4rem;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  color: white;
+  text-align: center;
+}
+
+.dev-page > .display-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.display-cards > .devCard {
+  margin: 3%;
+  border: none;
+  box-shadow: 0.5px 1.5px 5px 3.5px rgba(0, 0, 0, 0.151);
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+}
+
+.devCard > .card-img {
+  width: 460px;
+  height: auto;
+}
+
+.devCard > .dev-info {
+  padding-top: 3%;
+  line-height: 1.7;
+}
+
+.dev-name {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.dev-handle,
+.github-link {
+  font-size: 1rem;
+  color: white;
+}
+
+.github-logo-div > .github-link {
+  text-decoration: none;
+}
+
+.github-logo-div > .github-link:hover {
+  color: gray;
+}
+
+.github-logo-div > .github-img {
+  width: 3.5%;
+}
+
+@media only screen and (max-width: 500px) {
+  .devCard > .card-img {
+    width: 300px;
+  }
+}

@@ -1,0 +1,109 @@
+.fund-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fund-section {
+  box-shadow: 2px 5px 15px 12px rgba(0, 0, 0, 0.151);
+  width: 50%;
+  margin: auto;
+  overflow: auto;
+  margin-top: 1.5%;
+  height: 45rem;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  margin-bottom: 1.5%;
+}
+
+.fund-form > .form-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: white;
+  display: flex;
+}
+
+.fund-form > .fund-label {
+  margin: 2% auto;
+  width: 100%;
+  display: flex;
+  height: 5rem;
+}
+
+.fund-label > .fund-input {
+  width: 40%;
+  height: 100%;
+  margin: auto;
+  color: white;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 1.2rem;
+}
+
+.fund-label > .fund-input::placeholder {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 20;
+}
+
+.fund-p {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  color: white;
+}
+
+.form-btn {
+  border: 2px solid red;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fund-form > #submit {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  font-size: 20px;
+  background-color: #fff;
+  color: #242424;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 10px;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-out;
+}
+
+.fund-form > #submit:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease-out;
+}
+
+.fund-form > .fund-span {
+  color: red;
+}
+
+.fund-form > .link {
+  padding-top: 3%;
+  color: white;
+  text-decoration: none;
+}
+
+.fund-form > .link:hover {
+  font-size: large;
+}
+
+@media (max-width: 800px) {
+  .loginContainer > .formCont {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .login-label > .login-input {
+    width: 75%;
+  }
+}
